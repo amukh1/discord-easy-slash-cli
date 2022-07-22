@@ -5,7 +5,7 @@ client.TOKEN = '<TOKEN>'
 client.APP_ID = '<APPLICATION_ID>'
 client.GUILD_ID = 'GUILD_ID' // (you still need this, as you need to have a testing server)
 
-client.command('t', 1, 'testingg', [ { "name": "numberrr", "description": "numberrrr", "type": 4, "required": true, }, ])
+client.command('test', 1, 'test', [ { "name": "number", "description": "number", "type": 4, "required": true, }, ])
 client.command('help', 1, 'help command', null)
 
 
